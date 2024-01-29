@@ -1,0 +1,162 @@
+CRITICAL - 2023-11-01 05:18:07 --> Invalid file: "tampil sppd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tampil sppd.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tampil sppd', [], true)
+ 3 APPPATH\Controllers\Home.php(123): view('tampil sppd', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Desktop\\Lat1\\public\\index.php')
+CRITICAL - 2023-11-01 05:19:14 --> Invalid file: "tampil sppd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tampil sppd.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tampil sppd', [], true)
+ 3 APPPATH\Controllers\Home.php(123): view('tampil sppd', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Desktop\\Lat1\\public\\index.php')
+CRITICAL - 2023-11-01 05:26:38 --> Invalid file: "tampil sppd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tampil sppd.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tampil sppd', [], true)
+ 3 APPPATH\Controllers\Home.php(123): view('tampil sppd', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Desktop\\Lat1\\public\\index.php')
+ERROR - 2023-11-01 05:33:37 --> mysqli_sql_exception: Column 'kode' cannot be null in C:\Users\ASUS\Desktop\Lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ASUS\Desktop\Lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `sp...', 0)
+#1 C:\Users\ASUS\Desktop\Lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sp...')
+#2 C:\Users\ASUS\Desktop\Lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sp...')
+#3 C:\Users\ASUS\Desktop\Lat1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sp...', Array, false)
+#4 C:\Users\ASUS\Desktop\Lat1\app\Controllers\Home.php(101): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\ASUS\Desktop\Lat1\system\CodeIgniter.php(919): App\Controllers\Home->simpan()
+#6 C:\Users\ASUS\Desktop\Lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\ASUS\Desktop\Lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Desktop\Lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Desktop\Lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2023-11-01 05:33:37 --> Column 'kode' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sppd` (`kode`, `agenda`, `btransportasi`, `bpenginapan`, `bpokok`, `total`) VALUES (:kode:, :agenda:, :btransportasi:, :bpenginapan:, :bpokok:, :total:)', [...], false)
+ 2 APPPATH\Controllers\Home.php(101): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->simpan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Desktop\\Lat1\\public\\index.php')
+ERROR - 2023-11-01 05:36:25 --> mysqli_sql_exception: Column 'kode' cannot be null in C:\Users\ASUS\Desktop\Lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ASUS\Desktop\Lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `sp...', 0)
+#1 C:\Users\ASUS\Desktop\Lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sp...')
+#2 C:\Users\ASUS\Desktop\Lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sp...')
+#3 C:\Users\ASUS\Desktop\Lat1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sp...', Array, false)
+#4 C:\Users\ASUS\Desktop\Lat1\app\Controllers\Home.php(101): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\ASUS\Desktop\Lat1\system\CodeIgniter.php(919): App\Controllers\Home->simpan()
+#6 C:\Users\ASUS\Desktop\Lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\ASUS\Desktop\Lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Desktop\Lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Desktop\Lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2023-11-01 05:36:25 --> Column 'kode' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sppd` (`kode`, `agenda`, `btransportasi`, `bpenginapan`, `bpokok`, `total`) VALUES (:kode:, :agenda:, :btransportasi:, :bpenginapan:, :bpokok:, :total:)', [...], false)
+ 2 APPPATH\Controllers\Home.php(101): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->simpan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Desktop\\Lat1\\public\\index.php')
+ERROR - 2023-11-01 05:37:41 --> mysqli_sql_exception: Column 'kode' cannot be null in C:\Users\ASUS\Desktop\Lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ASUS\Desktop\Lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `sp...', 0)
+#1 C:\Users\ASUS\Desktop\Lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sp...')
+#2 C:\Users\ASUS\Desktop\Lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sp...')
+#3 C:\Users\ASUS\Desktop\Lat1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sp...', Array, false)
+#4 C:\Users\ASUS\Desktop\Lat1\app\Controllers\Home.php(101): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\ASUS\Desktop\Lat1\system\CodeIgniter.php(919): App\Controllers\Home->simpan()
+#6 C:\Users\ASUS\Desktop\Lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\ASUS\Desktop\Lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Desktop\Lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Desktop\Lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2023-11-01 05:37:41 --> Column 'kode' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sppd` (`kode`, `agenda`, `btransportasi`, `bpenginapan`, `bpokok`, `total`) VALUES (:kode:, :agenda:, :btransportasi:, :bpenginapan:, :bpokok:, :total:)', [...], false)
+ 2 APPPATH\Controllers\Home.php(101): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->simpan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Desktop\\Lat1\\public\\index.php')
+ERROR - 2023-11-01 06:36:04 --> mysqli_sql_exception: Duplicate entry 'K001' for key 'PRIMARY' in C:\Users\ASUS\Desktop\Lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ASUS\Desktop\Lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `sp...', 0)
+#1 C:\Users\ASUS\Desktop\Lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sp...')
+#2 C:\Users\ASUS\Desktop\Lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sp...')
+#3 C:\Users\ASUS\Desktop\Lat1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sp...', Array, false)
+#4 C:\Users\ASUS\Desktop\Lat1\app\Controllers\Home.php(101): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\ASUS\Desktop\Lat1\system\CodeIgniter.php(919): App\Controllers\Home->simpan()
+#6 C:\Users\ASUS\Desktop\Lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\ASUS\Desktop\Lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Desktop\Lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Desktop\Lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2023-11-01 06:36:04 --> Duplicate entry 'K001' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sppd` (`kode`, `agenda`, `btransportasi`, `bpenginapan`, `bpokok`, `total`) VALUES (:kode:, :agenda:, :btransportasi:, :bpenginapan:, :bpokok:, :total:)', [...], false)
+ 2 APPPATH\Controllers\Home.php(101): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->simpan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Desktop\\Lat1\\public\\index.php')
+ERROR - 2023-11-01 07:31:25 --> mysqli_sql_exception: Duplicate entry 'K003' for key 'PRIMARY' in C:\Users\ASUS\Desktop\Lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ASUS\Desktop\Lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `sp...', 0)
+#1 C:\Users\ASUS\Desktop\Lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sp...')
+#2 C:\Users\ASUS\Desktop\Lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sp...')
+#3 C:\Users\ASUS\Desktop\Lat1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sp...', Array, false)
+#4 C:\Users\ASUS\Desktop\Lat1\app\Controllers\Home.php(101): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\ASUS\Desktop\Lat1\system\CodeIgniter.php(919): App\Controllers\Home->simpan()
+#6 C:\Users\ASUS\Desktop\Lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\ASUS\Desktop\Lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Desktop\Lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Desktop\Lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2023-11-01 07:31:25 --> Duplicate entry 'K003' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sppd` (`kode`, `agenda`, `btransportasi`, `bpenginapan`, `bpokok`, `total`) VALUES (:kode:, :agenda:, :btransportasi:, :bpenginapan:, :bpokok:, :total:)', [...], false)
+ 2 APPPATH\Controllers\Home.php(101): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->simpan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Desktop\\Lat1\\public\\index.php')
+ERROR - 2023-11-01 07:31:30 --> mysqli_sql_exception: Duplicate entry 'K003' for key 'PRIMARY' in C:\Users\ASUS\Desktop\Lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ASUS\Desktop\Lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `sp...', 0)
+#1 C:\Users\ASUS\Desktop\Lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sp...')
+#2 C:\Users\ASUS\Desktop\Lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sp...')
+#3 C:\Users\ASUS\Desktop\Lat1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sp...', Array, false)
+#4 C:\Users\ASUS\Desktop\Lat1\app\Controllers\Home.php(101): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\ASUS\Desktop\Lat1\system\CodeIgniter.php(919): App\Controllers\Home->simpan()
+#6 C:\Users\ASUS\Desktop\Lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\ASUS\Desktop\Lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Desktop\Lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Desktop\Lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2023-11-01 07:31:30 --> Duplicate entry 'K003' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sppd` (`kode`, `agenda`, `btransportasi`, `bpenginapan`, `bpokok`, `total`) VALUES (:kode:, :agenda:, :btransportasi:, :bpenginapan:, :bpokok:, :total:)', [...], false)
+ 2 APPPATH\Controllers\Home.php(101): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->simpan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Desktop\\Lat1\\public\\index.php')

@@ -1,0 +1,49 @@
+CRITICAL - 2023-11-08 04:32:27 --> Unclosed '{' on line 6
+in APPPATH\Controllers\Layout.php on line 10.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Layout', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Layout')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Layout')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Desktop\\Lat1\\public\\index.php')
+CRITICAL - 2023-11-08 04:33:15 --> Invalid file: "Layout/main.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/main.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Layout/main', [], true)
+ 3 APPPATH\Controllers\Layout.php(9): view('Layout/main')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Layout->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Desktop\\Lat1\\public\\index.php')
+CRITICAL - 2023-11-08 04:35:40 --> Invalid file: "layout/main.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/main.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('layout/main', [], true)
+ 3 APPPATH\Controllers\Layout.php(9): view('layout/main')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Layout->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Desktop\\Lat1\\public\\index.php')
+CRITICAL - 2023-11-08 04:35:43 --> Invalid file: "layout/main.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/main.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('layout/main', [], true)
+ 3 APPPATH\Controllers\Layout.php(9): view('layout/main')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Layout->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Desktop\\Lat1\\public\\index.php')
+CRITICAL - 2023-11-08 04:35:47 --> Invalid file: "layout/main.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/main.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('layout/main', [], true)
+ 3 APPPATH\Controllers\Layout.php(9): view('layout/main')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Layout->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Desktop\\Lat1\\public\\index.php')
